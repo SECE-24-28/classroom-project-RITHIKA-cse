@@ -17,9 +17,9 @@ function App() {
       {/* <LeadersTomorrowComponent /> */}
       {/* <SymbolOfExcellenceComponent /> */}
       {/* <PostionComponent /> */}
-      {/* <TrustedbyComponent /> */}
+      <TrustedbyComponent />
       {/* <FlexWrapComponent /> */}
-      <OurPromisesComponent />
+      {/* <OurPromisesComponent /> */}
       {/* <PositionExampleComponent /> */}
     </div>
   );
