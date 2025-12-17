@@ -1,5 +1,5 @@
 import React from "react";
-import { OurPromiseStyle } from "./Our-Promise-style";
+import { OurPromiseStyle } from "./our-promise-style";
 const OurPromiseComponent = () => {
     return(
         <OurPromiseStyle>

@@ -17,6 +17,8 @@ import UseEffectPracticeThree from "./use-effect-practice/use-effect-practice-3"
 import SignupFormComponent from "./signup-form-api/signup-form-component";
 import RegisterFormComponent from "./Register-form/Register-form-component";
 import VeloraLivingComponent from "./velora-living/velora-living-component";
+import PortfolioComponent from "./portfolio/portfolio-component";
+import CombinedPageComponent from "./combined-page/combined-page-component";
 function App() {
   const arr1 = [
     { name: "rithika", mobile: "1234" },
@@ -45,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/eshwar" element={<HelloWorldComponent />} />
         <Route path="/our-promise" element={<OurPromisesComponent />} />
-        <Route path="/" element={<VeloraLivingComponent />} />
+        <Route path="/" element={<CombinedPageComponent />} />
 
         {/* <Route path="/leetcode/*" element={<HelloWorldComponent />}>
           <Route index element={<IndexPage />} />

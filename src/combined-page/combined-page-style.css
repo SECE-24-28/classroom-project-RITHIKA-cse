@@ -1,0 +1,59 @@
+.combined-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Impact Section */
+.impact-section {
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  text-align: center;
+}
+
+.impact-section h1 {
+  font-size: 36px;
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+.impact-subtitle {
+  color: #ecf0f1;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.impact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.impact-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 50px;
+  border-radius: 20px;
+  min-width: 200px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-10px);
+}
+
+.impact-number {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.impact-label {
+  display: block;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
